@@ -1,2 +1,65 @@
+# OS and desktop noise
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cursor local / machine-specific (keep shared rules tracked)
+.cursor/mcp.json
+.cursor/*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Logs and caches
+logs/
+*.log
+.cache/
+tmp/
+temp/
+.tmpdir/
+
+# Node / Python tool caches (future tools/)
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging / archives accidentally dropped in-repo
+*.zip
+*.7z
+*.rar
+
+# Local manuscript export scratch (keep source markdown tracked)
+book/manuscript/_build/
+book/manuscript/*.docx
+book/manuscript/*.epub
+book/manuscript/*.pdf
+
+# Backup and conflict files
+*.bak
+*.orig
+*~
