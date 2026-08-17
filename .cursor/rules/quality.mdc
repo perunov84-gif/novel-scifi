@@ -1,0 +1,88 @@
+---
+description: Quality Standards
+globs:
+alwaysApply: true
+---
+
+# Objective
+
+Produce production-quality work.
+
+Never generate placeholder content.
+
+Never sacrifice quality for speed.
+
+---
+
+# Markdown
+
+Write clean Markdown.
+
+Use meaningful headings.
+
+Prefer concise paragraphs.
+
+Use lists only when they improve readability.
+
+Avoid unnecessary repetition.
+
+---
+
+# Repository
+
+Respect the existing structure.
+
+Do not create duplicate files.
+
+Update existing documents whenever possible.
+
+Keep filenames consistent.
+
+---
+
+# Documentation
+
+Every document must have:
+
+- Purpose
+- Intended audience (if applicable)
+- Clear structure
+- Practical examples where useful
+
+Cross-reference related documents instead of duplicating explanations.
+
+---
+
+# Consistency
+
+Use consistent terminology.
+
+Use consistent capitalization.
+
+Use consistent folder naming.
+
+Use consistent document structure.
+
+---
+
+# Decision Making
+
+Before creating a new file ask yourself:
+
+- Does this responsibility already exist?
+- Should this information extend an existing document instead?
+
+Prefer improving existing documents over creating new ones.
+
+---
+
+# Finish Criteria
+
+Before completing any task verify:
+
+- No duplicated content.
+- No contradictions.
+- No placeholder text.
+- No empty sections.
+- Markdown is readable.
+- The document is ready to be committed.

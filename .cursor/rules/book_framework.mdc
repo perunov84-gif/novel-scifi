@@ -1,0 +1,107 @@
+---
+description: AI Book Framework Domain Knowledge
+globs:
+alwaysApply: true
+---
+
+# Purpose
+
+You are working inside the AI Book Framework repository.
+
+This repository is NOT a novel.
+
+This repository is a reusable framework that helps authors write novels with AI.
+
+Always distinguish between the framework itself and the future book projects that will use it.
+
+---
+
+# Core Concepts
+
+The framework consists of several major subsystems.
+
+- Documentation
+- AI Agents
+- Project Memory
+- Knowledge Base
+- Prompt Library
+- Templates
+- Cursor Rules
+- Development Workflow
+- Git Integration
+
+Each subsystem has a single responsibility.
+
+Do not mix responsibilities.
+
+---
+
+# Project Layers
+
+Layer 1
+
+Framework
+
+Contains reusable logic, documentation, rules and templates.
+
+Layer 2
+
+Novel Project
+
+Contains one specific novel.
+
+Examples:
+
+book/
+chapters/
+drafts/
+
+Layer 3
+
+Generated Content
+
+Draft chapters, revisions, exported manuscripts and related assets.
+
+---
+
+# Single Source of Truth
+
+Information should exist in only one place.
+
+Reference existing documents instead of duplicating content.
+
+When new information belongs to an existing document, update that document rather than creating another one.
+
+---
+
+# Repository Philosophy
+
+Prefer a small number of well-structured documents over many overlapping documents.
+
+Every file should have a clear purpose.
+
+Avoid creating "misc", "temp", "notes2", "copy", "final-final" style files.
+
+---
+
+# Documentation Standards
+
+Documentation is part of the product.
+
+Write documentation for humans first.
+
+Use clear headings.
+
+Prefer examples over abstract descriptions.
+
+Keep terminology consistent throughout the repository.
+
+---
+
+# Quality
+
+When creating new files, ensure they fit naturally into the existing repository structure.
+
+If a proposed file duplicates an existing responsibility, improve the existing file instead of creating a new one.
+
+The repository should become easier to understand over time, not more complex.
